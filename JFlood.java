@@ -2,7 +2,7 @@ package jflood;
 
 /**
  *
- * @author localadmin
+ * @author Slam
  */
 import java.io.IOException;
 import java.net.*;
@@ -28,7 +28,7 @@ public class JFlood {
 
     private static void myMain(Scanner in) {
 
-        System.out.println("Welcome to ...");
+        System.out.println("Welcome to jCiberSec");
         System.out.println("---- MENU ----");
         System.out.println("1. to threath web with DDOS");
         System.out.println("2. to threath UDP-IP target with DDOS");
@@ -47,7 +47,7 @@ public class JFlood {
                 System.out.println("Usage: <target IP> <number threads to use> <pps limiter, -1 for no limit> <time>");
                 /*
                     if (args.length < 4) {
-                    System.out.println("Usage: java DDoSAttack <target IP> <number threads to use> <pps limiter, -1 for no limit> <time>");
+                    System.out.println("Usage: <target IP> <number threads to use> <pps limiter, -1 for no limit> <time>");
                     System.exit(-1);
                     }*/
                 final String targetIP = in.next().concat(in.nextLine());//args[0];

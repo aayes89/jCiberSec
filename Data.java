@@ -6,7 +6,7 @@ package jflood;
 
 /**
  *
- * @author localadmin
+ * @author Slam
  */
 public class Data {
 
